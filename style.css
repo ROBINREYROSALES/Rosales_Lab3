@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.category-wrapper{
+    border-top: 4px solid blue;
+    border-bottom: 4px solid red;
+    border-left: 4px solid green;
+    border-right: 4px solid orange;
+}
+body {
+    display: flex;
+    justify-content: space-around;
+}
+.category {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+}
+.category ul {
+    list-style-type: none;
+    padding: 0;
+}
+    .category ul li {
+    padding: 5px;
+    border: 2px solid green;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
